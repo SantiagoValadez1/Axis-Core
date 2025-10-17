@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Axis Core</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="text-light">
+    <!--carrusel-->
+  <header>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active"><img src="images/FondoGym.jpg" class="d-block w-100" alt="1"></div>
+        <div class="carousel-item"><img src="images/FondoGym2.jpg" class="d-block w-100" alt="2"></div>
+        <div class="carousel-item"><img src="images/FondoGym3.jpg" class="d-block w-100" alt="3"></div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+      <div id="logo-container" class="position-absolute top-0 start-0 z-3 p-3">
+        <img src="images/Logo.jpeg" alt="Logo Axis Core" class="logo-img shadow">
+      </div>
+
+      <button class="menu-hamburguesa position-absolute top-0 end-0 z-3 me-4 mt-4" aria-label="Abrir menú">
+        <span class="linea"></span><span class="linea"></span><span class="linea"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre" class="py-5 bg-light text-dark">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4">
+            <img src="images/imagen1.jpg" alt="Mujer haciendo ejercicio" class="img-fluid rounded shadow-lg">
+          </div>
+          <article class="col-lg-6">
+            <h2 class="fw-bold text-success mb-3">QUIÉNES SOMOS</h2>
+            <p>En Axis Core, somos más que un gimnasio; somos un centro de transformación personal.</p>
+            <p>Combinamos la intensidad del CrossFit con la disciplina del Boxeo y el rigor del entrenamiento de fuerza.</p>
+            <a href="#" class="btn btn-success btn-lg">SABER MÁS</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<aside class="py-5 bg-white text-dark">
+  <div class="container">
+    <div class="row align-items-center mb-5">
+      <article class="col-lg-6">
+        <h2 class="fw-bold text-success mb-3">PLANES</h2>
+        <p>Elige el plan que mejor se adapte a tus objetivos.</p>
+        <p>En Axis Core tenemos opciones flexibles según tu compromiso y metas.</p>
+      </article>
+      <div class="col-lg-6 mb-4">
+        <img src="images/imagen2.jpg" alt="Hombre entrenando" class="img-fluid rounded shadow-lg">
+      </div>
+    </div>
+
+    <div class="row text-center g-4">
+      <div class="col-md-4">
+        <div class="border rounded p-4 bg-light h-100 d-flex flex-column justify-content-between shadow-sm">
+          <h3 class="text-success fs-1">R$ 89</h3>
+          <p class="fw-bold">PLAN MENSUAL</p>
+          <p>Entrena en cualquier momento del día con acceso ilimitado a todas las áreas.</p>
+          <a href="#" class="btn btn-success mt-auto">Elegir</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="border rounded p-4 bg-white h-100 d-flex flex-column justify-content-between shadow-sm">
+          <h3 class="text-success fs-1">R$ 249</h3>
+          <p class="fw-bold">PLAN TRIMESTRAL</p>
+          <p>Ahorra más entrenando tres meses con sesiones personalizadas y seguimiento nutricional.</p>
+          <a href="#" class="btn btn-success mt-auto">Elegir</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="border rounded p-4 bg-light h-100 d-flex flex-column justify-content-between shadow-sm">
+          <h3 class="text-success fs-1">R$ 899</h3>
+          <p class="fw-bold">PLAN ANUAL</p>
+          <p>Acceso total durante todo el año, con entrenamientos premium y eventos exclusivos.</p>
+          <a href="#" class="btn btn-success mt-auto">Elegir</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="bg-white py-5 text-dark">
+      <div class="container">
+        <h2 class="servicios-titulo position-relative text-success mb-4">SERVICIOS</h2>
+        <p class="text-secondary mb-5">Tenemos los mejores servicios para ti.</p>
+
+        <div class="row g-4">
+          <div class="col-md-4 d-flex">
+            <img src="images/pesa.png" class="icono-servicio me-3">
+            <div>
+              <h5 class="fw-bold">PROGRAMA PERSONAL</h5>
+              <p>Adaptado 100% a ti y tu entorno.</p>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex">
+            <img src="images/cinta.png" class="icono-servicio me-3">
+            <div>
+              <h5 class="fw-bold">EVALUACIÓN FÍSICA</h5>
+              <p>Entrenadores profesionales a tu servicio.</p>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex">
+            <img src="images/plan.png" class="icono-servicio me-3">
+            <div>
+              <h5 class="fw-bold">NUTRICIÓN</h5>
+              <p>Dietas personalizadas con nutricionistas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIO Y FORMULARIO -->
+    <section class="bg-white text-dark py-5">
+      <div class="container d-lg-flex justify-content-between align-items-start gap-5">
+        <article class="text-center position-relative mb-5 mb-lg-0">
+          <div class="display-1 text-secondary opacity-25 position-absolute top-0 start-50 translate-middle">“</div>
+          <p class="fs-4 fst-italic mt-5">Me encantó el equipo de <strong>Axis Core</strong>. ¡Qué programa tan eficiente!</p>
+          <div class="d-flex justify-content-center align-items-center gap-3 mt-3">
+            <span>ANT.</span>
+            <div class="rounded-circle bg-success" style="width:8px;height:8px;"></div>
+            <span>PRÓX.</span>
+          </div>
+        </article>
+
+        <aside class="bg-light p-4 rounded">
+          <h5 class="fw-bold mb-3">DEJE SU MENSAJE</h5>
+          <form class="d-flex flex-column gap-3">
+            <input type="text" class="form-control" placeholder="NOMBRE" required>
+            <input type="email" class="form-control" placeholder="EMAIL" required>
+            <input type="tel" class="form-control" placeholder="TELÉFONO" required>
+            <textarea class="form-control" rows="3" placeholder="MENSAJE" required></textarea>
+            <button type="submit" class="btn btn-success align-self-end fs-4">→</button>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer text-dark">
+      <section class="newsletter bg-black text-white py-5 px-4 text-center">
+        <h2 class="fw-bold mb-2">NOTICIAS</h2>
+        <p>Ingrese su correo y reciba nuestras novedades.</p>
+        <form class="news-form d-flex justify-content-center align-items-center mx-auto border-bottom border-light w-50">
+          <input type="email" placeholder="SU CORREO" required>
+          <button type="submit">→</button>
+        </form>
+      </section>
+
+      <section class="footer-info bg-light text-center py-4">
+        <div class="mb-3">
+          <a href="#" class="text-dark fw-bold mx-2">QUIÉNES SOMOS</a>
+          <a href="#" class="text-dark fw-bold mx-2">TESTIMONIOS</a>
+          <a href="#" class="text-dark fw-bold mx-2">SERVICIOS</a>
+          <a href="#" class="text-dark fw-bold mx-2">CONTACTO</a>
+        </div>
+        <div class="footer-brand">
+          <h3 class="fw-bold">AXIS <span>Core</span></h3>
+          <p>Av. Nóbrega, 713 - Sala 12 | Zona 4 - Maringá-PR</p>
+        </div>
+      </section>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
